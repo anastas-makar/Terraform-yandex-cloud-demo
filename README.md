@@ -32,6 +32,11 @@ yc compute image list --folder-id standard-images
 terraform validate
 ```
 
+- Посмотреть, какие изменения будут внесены:
+```bash
+terraform plan
+```
+
 - Применить настройки и создать инстанс:
 ```bash
 terraform apply
