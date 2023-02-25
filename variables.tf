@@ -25,7 +25,7 @@ variable "cloud_id" {
 }
 
 variable "yc_name" {
-  default     = "cloud-praktikumdevopscourse"
+  default     = "mybeautifulcloudname"
   type        = string
   description = "name"
   sensitive = true
